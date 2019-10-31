@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(../img/login1.png);
+	max-width:100%;
+    max-height:100%;
+    background-size:100% 100%;
+    position:absolute;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/login1.png',sizingMethod='scale');
+}
+
+/*显示隐藏密码图片*/
+img {
+	width: 30px;
+	height: 16px;
+	position: absolute;
+	right: 0px;
+	margin: 11px;
+}
+
+/*显示隐藏密码图片*/
+#passwordVisible{
+width: 30px;
+height: 16px;
+position: absolute;  
+left: 250px; 
+margin: 11px;  
+}
+
+#userLogin{
+	 color: #fff;
+    text-shadow:0 0 10px;
+    letter-spacing: 1px;
+     font-size: 2em;
+     margin-left:50px;
+    margin: 0.67em 0;
+    padding-left: 70px;
+}
+
+#login {
+	position: absolute;
+    top: 38%;
+    left:50%;
+    margin: -150px 0 0 -150px;
+    width: 600px;
+    height: 300px;
+}
+
+input {
+	width: 278px;
+	height: 18px;
+	margin-bottom: 10px;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px;
+	border-top: 1px solid #312E3D;
+	border-left: 1px solid #312E3D;
+	border-right: 1px solid #312E3D;
+	border-bottom: 1px solid #56536A;
+	border-radius: 4px;
+	background-color: #2D2D3F;
+}
+
+#loginCommit {
+	width: 300px;
+	min-height: 20px;
+	display: block;
+	background-color: #4a77d4;
+	border: 1px solid #3762bc;
+	color: #fff;
+	padding: 9px 14px;
+	font-size: 15px;
+	line-height: normal;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.goRegister a{
+	padding-left: 230px;
+}
+
+.mms-error{
+    position: relative;
+    background: indianred;
+    color: white;
+    border: 1px solid #faccc6;
+    padding: 0px 10px 0px 40px;
+    line-height: 15px;
+    height: auto;
+    width: 248px;
+	}
